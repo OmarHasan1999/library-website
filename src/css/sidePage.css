@@ -1,0 +1,52 @@
+aside div.booksSection{
+    margin-left: 26vh;
+    width: 44vh;
+    height: 85vh;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.136);
+    border-radius: 4px;
+}
+
+aside div.booksSection h3{
+    position: absolute;
+    left: 51vh;
+    margin-top: 4vh;
+    font-size: 26px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    user-select: none;
+}
+aside div.booksSection div{
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column; 
+    position: relative;
+}
+aside div.booksSection div a{
+    text-decoration: none;
+    margin-right: 3vh;
+    margin-bottom: 25px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.865);
+    font-size: 18px;
+    font-weight: 300;
+    font-family: fantasy;
+}
+aside div.booksSection div a:hover{
+    text-decoration:underline;
+}
+#bk{
+    position: absolute;
+    margin-bottom: 25px;
+    left: 3vh;
+    color: rgb(0, 255, 157);
+    rotate: -370deg;
+}
+
+hr.hr{
+    width: 40px;
+    margin-left: 34vh;
+    margin-top: 4vh;
+    border: 1px solid rgb(0, 255, 157);
+}
+

@@ -39,6 +39,9 @@
         <div class="mainPages">
         <side-page/>
         <main-page/>
+
+        <books-section/>
+
         </div>
 
 </template>
@@ -47,6 +50,8 @@
 import navPage from '../../components/HomePartials/navPage.vue'
 import sidePage from '../../components/HomePartials/sidePage.vue'
 import mainPage from '../../components/HomePartials/mainPage.vue'
+import booksSection from '../sectionsPages/booksSection.vue'
+
 
     
 </script>

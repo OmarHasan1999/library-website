@@ -1,0 +1,184 @@
+.mainQuotesSection{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3vh;
+}
+div.quotesSection{
+    width: 128vh;
+    height: 19vh;
+    background-color: white;
+    margin-left: 80vh;
+    border: 1px solid rgba(0, 0, 0, 0.136);
+    border-radius: 4px;
+    position: absolute;
+    right: 20vh;
+    margin-top: -59vh;
+    
+}
+div.quotesSectionOne{
+    width: 128vh;
+    height: 19vh;
+    background-color: white;
+    margin-left: 80vh;
+    border: 1px solid rgba(0, 0, 0, 0.136);
+    border-radius: 4px;
+    position: absolute;
+    right: 20vh;
+    margin-top: -37vh;
+    
+}
+div.quotesSectionTwo{
+    width: 128vh;
+    height: 19vh;
+    background-color: white;
+    margin-left: 80vh;
+    border: 1px solid rgba(0, 0, 0, 0.136);
+    border-radius: 4px;
+    position: absolute;
+    right: 20vh;
+    margin-top: -15vh;
+    
+}
+div.quotesSectionThree{
+    width: 128vh;
+    height: 19vh;
+    background-color: white;
+    margin-left: 80vh;
+    border: 1px solid rgba(0, 0, 0, 0.136);
+    border-radius: 4px;
+    position: absolute;
+    right: 20vh;
+    margin-top: 7vh;
+    
+}
+div.quotesSectionFour{
+    width: 128vh;
+    height: 19vh;
+    background-color: white;
+    margin-left: 80vh;
+    border: 1px solid rgba(0, 0, 0, 0.136);
+    border-radius: 4px;
+    position: absolute;
+    right: 20vh;
+    margin-top: 28vh;
+    
+}
+div.quotesSectionFive{
+    width: 128vh;
+    height: 19vh;
+    background-color: white;
+    margin-left: 80vh;
+    border: 1px solid rgba(0, 0, 0, 0.136);
+    border-radius: 4px;
+    position: absolute;
+    right: 20vh;
+    margin-top: 50vh;
+    
+}
+div.quotesSectionSix{
+    width: 128vh;
+    height: 19vh;
+    background-color: white;
+    margin-left: 80vh;
+    border: 1px solid rgba(0, 0, 0, 0.136);
+    border-radius: 4px;
+    position: absolute;
+    right: 20vh;
+    margin-top: 71vh;
+    
+}
+div.quotesSectionSeven{
+    width: 128vh;
+    height: 19vh;
+    background-color: white;
+    margin-left: 80vh;
+    border: 1px solid rgba(0, 0, 0, 0.136);
+    border-radius: 4px;
+    position: absolute;
+    right: 20vh;
+    margin-top: 92vh;
+    
+}
+div.quotesSectionEight{
+    width: 128vh;
+    height: 19vh;
+    background-color: white;
+    margin-left: 80vh;
+    border: 1px solid rgba(0, 0, 0, 0.136);
+    border-radius: 4px;
+    position: absolute;
+    right: 20vh;
+    margin-top: 114vh;
+}
+div.quotesSectionNine{
+    width: 128vh;
+    height: 19vh;
+    background-color: white;
+    margin-left: 80vh;
+    border: 1px solid rgba(0, 0, 0, 0.136);
+    border-radius: 4px;
+    position: absolute;
+    right: 20vh;
+    margin-top: 135vh;
+    
+}
+
+#quotesHash{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 35px;
+}
+#quotesHash:hover{
+    border-color: rgb(0, 255, 123);
+}
+#quotesHash p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.866);
+    margin-bottom: 15px;
+    padding: 0px 10px;
+}
+#quotesHash i{
+    font-size: 20px;
+    color: rgb(0, 255, 145);
+    margin-bottom: 15px;
+}
+#rotateQuotes{
+    rotate: 180deg;
+}
+div.bookQuote{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 0%;
+    margin-top: 17.8vh;
+    margin-bottom: -1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 18px;
+    padding-left: 10px;
+    transform: scale();
+}
+div.bookQuote:hover{
+    background-color:rgb(240, 240, 240);
+    transition: 0.7s ease;
+}
+div.bookQuote h7{
+    color: rgb(0, 255, 123);
+    font-size: 20px;
+    padding-right: 4vh;
+}
+div.bookQuote #quo{
+    font-size: 18px;
+    rotate: 12deg;
+    position: absolute;
+    right: 15px;
+    margin-top: 13px;
+}
+hr.hrQuo{
+    position: absolute;
+    margin-top: 11.7vh;
+    width: 122.8vh;
+    border: 0.2px solid rgba(0, 0, 0, 0.030);
+}

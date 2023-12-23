@@ -22,7 +22,22 @@
 
 <script>
 export default {
+
     
+
+    mounted() {
+        // const bookList = document.querySelector(".booksSection")
+
+        // window.onscroll = () => {
+        //     if (window.scrollY >= 1500){
+        //          bookList.style.position = "fixed"
+        //     }else if(window.scrollY <= 3000){
+        //         bookList.style.position = "static"
+        //     }
+        // }
+
+    },
+
 }
 </script>
 <style lang="">

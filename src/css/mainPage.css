@@ -72,4 +72,14 @@ rotate: 180deg;
 }
 .mainPage .h1:hover::after{
     transform: scale(1);
+
+}
+.mainReview{
+    position: relative;
+    top: 83vh;
+    right: 26vh;
+    
+}
+.review{
+    width: 128vh;
 }

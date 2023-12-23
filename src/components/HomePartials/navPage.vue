@@ -14,7 +14,10 @@
                 زينب حمدي وانتهى هذا الزواج أيضا بالطلاق عام 1987
               </p>
             </div>
+
             <img src="../../assets/food/تنزيل.jpg">
+            <img src="../../assets/images/تنزيل.jpg">
+
         </div>
     </article>
 </template>

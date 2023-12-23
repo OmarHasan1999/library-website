@@ -1,0 +1,155 @@
+div.reviewsSection{
+    width: 128vh;
+    height: 360vh;
+    background-color: white;
+    margin-left: 80vh;
+    border: 1px solid rgba(0, 0, 0, 0.136);
+    border-radius: 4px;
+    position: absolute;
+    right: 20vh;
+    margin-top: -59vh;
+}
+.contentReviews{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 70%;
+    height: 20vh;
+}
+.headReview{
+    position: absolute;
+    right: 8vh;
+    display: flex;
+    align-items: center;
+}
+.headReview p{
+    padding-right: 10px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.781);
+    cursor: pointer;
+    transform: scale();
+}
+.headReview p:hover{
+    text-decoration: underline;
+    transition: 0.5s ease;
+}
+.headReview i{
+    rotate: 11deg;
+    color: #2c5d63;
+}
+.ReviewText{
+    width: 117vh;
+    height: 25vh;
+    background-color: rgba(0, 0, 0, 0.06);
+    border-style: none;
+    border-radius: 4px;
+    position: absolute;
+    right: 8vh;
+    margin-top: 8vh;
+    text-align: right;
+    padding-right: 85px;
+    padding-top: 20px;
+    
+}
+.ReviewText h5{
+    font-size: 20px;
+    font-weight: 400;
+    color: green;
+    margin-bottom: 2px;
+}
+.ReviewText h4{
+    font-size: 20px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.904);
+    margin-bottom: 4px;
+}
+.ReviewText h4 i{
+    font-size: 18px;
+    color: rgb(255, 204, 0); 
+}
+.reviewPar{
+    color: rgba(0, 0, 0, 0.895);
+    font-weight: 100;
+    font-size: 17px;
+}
+.ReviewText img{
+    width: 8vh;
+    height: 6vh;
+    border: 1px solid;
+    border-radius: 100%;
+    border-style: none;
+    position: absolute;
+    top: 4vh;
+    right: 3vh;
+}
+.dateReview{
+    color: rgba(0, 0, 0, 0.714);
+    font-size: 12px;
+    position: absolute;
+    top: 5vh;
+    left: 3vh;
+    word-spacing: -1px;
+}
+.hrReviews{
+    height: 32vh;
+    position:absolute;
+    right: 4vh;
+    top: 7.5vh;
+    border: 2px solid rgba(0, 0, 0, 0.114);
+}
+.hrReviewsOne{
+    height: 32vh;
+    position:absolute;
+    right: 4vh;
+    top: 46.5vh;
+    border: 2px solid rgba(0, 0, 0, 0.114);
+}
+.hrReviewsTwo{
+    height: 32vh;
+    position:absolute;
+    right: 4vh;
+    top: 85.5vh;
+    border: 2px solid rgba(0, 0, 0, 0.114);
+}
+.hrReviewsThree{
+    height: 32vh;
+    position:absolute;
+    right: 4vh;
+    top: 124.5vh;
+    border: 2px solid rgba(0, 0, 0, 0.114);
+}
+.hrReviewsFour{
+    height: 32vh;
+    position:absolute;
+    right: 4vh;
+    top: 163.5vh;
+    border: 2px solid rgba(0, 0, 0, 0.114);
+}
+.hrReviewsFive{
+    height: 32vh;
+    position:absolute;
+    right: 4vh;
+    top: 202.5vh;
+    border: 2px solid rgba(0, 0, 0, 0.114);
+}
+.hrReviewsSix{
+    height: 32vh;
+    position:absolute;
+    right: 4vh;
+    top: 241.5vh;
+    border: 2px solid rgba(0, 0, 0, 0.114);
+}
+.hrReviewsSeven{
+    height: 32vh;
+    position:absolute;
+    right: 4vh;
+    top: 280.5vh;
+    border: 2px solid rgba(0, 0, 0, 0.114);
+}
+.hrReviewsEight{
+    height: 32vh;
+    position:absolute;
+    right: 4vh;
+    top: 319.5vh;
+    border: 2px solid rgba(0, 0, 0, 0.114);
+}

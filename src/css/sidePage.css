@@ -5,8 +5,8 @@ aside div.booksSection{
     background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.136);
     border-radius: 4px;
+    scroll-behavior: smooth;
 }
-
 aside div.booksSection h3{
     position: absolute;
     left: 51vh;

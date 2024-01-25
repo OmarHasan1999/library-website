@@ -58,58 +58,6 @@ div.iden p{
     padding: 15px;
 } 
 
-/******************************************************/
-
-@media only screen and (max-width: 767px) {
-    div.iden p{
-        line-height: 28px;
-        position: absolute;
-        right: 53vh;
-        margin-top: 5vh;
-        width: 57%;
-        padding:0px 20px;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 16px;
-    }
-    article div.article{
-        width: 92%;
-        height: 46vh;
-        background-color: white;
-        border-radius: 8px;
-        border: 1px solid rgba(0, 0, 0, 0.105);
-        margin-bottom: 140px;
-        margin-top: 25vh;
-    }
-    article div.article img{
-        width: 14vh;
-        border-radius: 100%;
-        border-style: none;
-        padding: auto;
-        position: absolute;
-        right: 12vh;
-        margin-top: 5vh;
-    }
-    div.iden h4{
-        position: absolute;
-        right: 31vh;
-        font-size: 17px;
-        font-weight: 700;
-        font-family:Verdana, Geneva, Tahoma, sans-serif
-    }
-    div.iden p{
-        line-height: 29px;
-        position: absolute;
-        right: 25vh;
-        margin-top: 5vh;
-        width: 75%;
-        padding:10px 0px;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 16px;
-    }
-    .navPage h3{
-        display: none;
-    } 
-}
 /*******************************************************/
 
 @media only screen and (max-width: 900px) {

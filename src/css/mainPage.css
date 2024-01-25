@@ -85,32 +85,6 @@ rotate: 180deg;
 }
 /*********************************************************/
 
-@media only screen and (max-width: 767px) {
-    main{
-        height: 21vh;
-        background-color: white;
-        border: 1px solid rgba(0, 0, 0, 0.136);
-        border-bottom-width: 3px;
-        border-radius: 4px;
-        margin-top: -84.7vh;
-        margin-right: -37vh;
-    }
-    main div.mainPage{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: row;
-        margin-top: 16px;
-        padding: 0px 20vh;
-    }
-    h4.h1{
-        position: absolute;
-        bottom: 10px;
-    }
-   
-}
-
-/*********************************************************/
 @media only screen and (max-width: 900px) {
     main{
         height: 21vh;

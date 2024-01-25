@@ -37,7 +37,6 @@ div.quotesSection{
     width: 85%;
     line-height: 38px;
     padding-top: 10px;
-    /* padding: 0px 10px; */
 }
 #quotesHash i{
     font-size: 20px;
@@ -142,57 +141,6 @@ div.likeQuote span{
     height:340vh;
     background-color: rgba(0, 0, 0, 0.035);
 }
-.loadQuote span{
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: rgb(0, 255, 123);
-    display: inline-block;
-    right: 33%;
-    position: absolute;
-    bottom: -450vh;
-    animation-name: dot;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0.8s;
-}
-.loadQuoteOne span{
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: rgb(0, 255, 123);
-    display: inline-block;
-    right: 35%;
-    position: absolute;
-    bottom: -450vh;
-    animation-name: dot;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0.4s;
-}
-.loadQuoteTwo span{
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: rgb(0, 255, 123);
-    display: inline-block;
-    right: 37%;
-    position: absolute;
-    bottom: -450vh;
-    animation-name: dot;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-}
-@keyframes dot{
-    50%{
-        opacity: 0;
-        transform: scale(0.7) translateY(10px);
-    }
-}
  .arrow{
     width: 6vh;
     height: 7vh;
@@ -216,48 +164,3 @@ div.likeQuote span{
 
  }
 
-
-/*****************************************************/
-@media only screen and (max-width: 900px)
-{
-    .containerQuotes{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        position: absolute;
-        right: -14vh;
-        margin-top:-60vh;
-    }
-    div.quotesSection{
-        width: 128vh;
-        height: 26.5vh;
-        background-color: white;
-        margin-left: 80vh;
-        border: 1px solid rgba(0, 0, 0, 0.136);
-        border-radius: 4px;
-        margin-bottom: 3vh;
-    }
-}
-/**************************************************/
-
-/**************************************************/
-@media only screen and (max-width: 900px)
-{
-    .containerQuotes{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        position: absolute;
-        right: -17vh;
-        margin-top:-60vh;
-    }
-    div.quotesSection{
-        width: 128vh;
-        height: 26.5vh;
-        background-color: white;
-        margin-left: 80vh;
-        border: 1px solid rgba(0, 0, 0, 0.136);
-        border-radius: 4px;
-        margin-bottom: 3vh;
-    }
-}

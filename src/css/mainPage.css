@@ -83,18 +83,3 @@ rotate: 180deg;
 .review{
     width: 128vh;
 }
-/*********************************************************/
-
-@media only screen and (max-width: 900px) {
-    main{
-        height: 21vh;
-        background-color: white;
-        border: 1px solid rgba(0, 0, 0, 0.136);
-        border-bottom-width: 3px;
-        border-radius: 4px;
-        margin-top: -84.7vh;
-        margin-right: -34vh;
-    }
-}
-
-/*********************************************************/

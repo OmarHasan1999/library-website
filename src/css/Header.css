@@ -60,21 +60,3 @@ span#search{
        cursor: pointer;
 }
 
-/**********************************************/
-
-@media only screen and (max-width: 900px){
-        .nav  {
-                display:None;
-        }
-        .logo { text-decoration: none;
-                font-size: 25px; 
-               font-weight: 600;
-                text-transform: uppercase;
-                 color: rgba(0, 0, 0, 0.413); 
-               letter-spacing: -2px;
-               position: absolute;
-               right: 10%;
-       }
-                
-}
-/******************************************/

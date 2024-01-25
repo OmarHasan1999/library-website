@@ -235,8 +235,6 @@ margin-bottom: 2vh;
   text-align: center;
   color: rgba(240, 248, 255, 0.64);
 }
-
-
 .detailBook{
     display: flex;
     justify-content: center;
@@ -280,8 +278,6 @@ right: 30%;
     position: absolute;
     right: 45%;
 }
-
-
 .shareBook{
     width: 52vh;
     height: 8vh;
@@ -314,88 +310,4 @@ right: 30%;
     padding-right: 12px;
     cursor: pointer;
 
-}
-
-/********************************************/
-
-@media only screen and (max-width: 900px){
-    .headerHrOne{
-        position: relative;
-        height: 6vh;
-        top: -15vh;
-        right: 59vh;
-    }
-    .headerHrTwo{
-        position: relative;
-        top: -21vh;
-        right: 46vh;
-        height: 6vh;
-    }
-    .headerIcon i{
-        padding: 12px 14px;
-    }
-    .hrDetail{
-        right: 23vh;
-        top: 32.3vh;
-        height: 200vh;
-    }
-    .detailCon h3{
-        font-size: 25px;
-        right: 30vh;
-        margin-top: 30vh;
-    }
-    .imgDetail{
-        width: 35vh;
-        height: 48.5vh;
-        position: absolute;
-        top: 48vh;
-        right: 30vh;
-    }
-    .buttonDetail button{
-        width: 52vh;
-        height: 8vh;        
-        right: 45vh;
-        top: 36vh;
-        font-size: 24px;
-    }
-    .shareBook p{
-        position: absolute;
-        right: 5%;
-        top: 19%;
-        font-size: 22px;
-    }
-    .shareBook{
-        width: 52vh;
-        height: 9vh;
-        right: 75vh;
-        top: 94vh;
-    }
-    .newLinks i{
-        padding-left: 4px;
-        padding-right: 13px;
-        cursor: pointer;
-    }
-    .buttonDetail button span i{
-        padding: 11px;
-    }
-    .hrDescOne{
-        width: 120vh;
-        margin-right: 16vh;
-    }
-    .bookDesc h6{
-        position: absolute;
-        right: 23vh;
-        margin-top: 2vh;
-        margin-bottom: 2vh;
-        }
-        .bookDesc p{
-            position: absolute;
-            right: 24vh;
-            font-size: 23px;
-            font-weight: 300;
-            margin-top: 13vh;
-            width: 80%;
-            text-align: right;
-            line-height: 8vh;
-        }
 }

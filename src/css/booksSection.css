@@ -111,17 +111,6 @@
 }
 /************************************************/
 
-@media only screen and (max-width: 500px) {
-    .booksMain{
-        position:absolute;
-        right: 21.8vh;
-        margin-top: -57vh;
-        margin-right: -50.5vh;
-        width: 132vh;
-        height: 150vh;
-        
-   }
-}
 
 
 

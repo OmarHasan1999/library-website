@@ -1,6 +1,6 @@
 .detailSec{
     width: 100%;
-    height: 246vh;
+    height: 270vh;
     background-color: rgba(255, 255, 255, 0.087);
 }
 .detailCon{
@@ -100,7 +100,7 @@
     position: absolute;
     right: 40vh;
     top: 32.3vh;
-    height: 200vh;
+    height: 210vh;
     border: 1px solid rgba(0, 0, 0, 0.086);
 }
 .oneHrDetail{

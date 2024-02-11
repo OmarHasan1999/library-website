@@ -4,6 +4,10 @@ import HomeView from '../views/HomeView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
+  scrollBehavior() {
+    // always scroll to top
+    return { top: 0 , behavior: 'smooth'}
+  },
   
   routes: [
     {
@@ -26,7 +30,7 @@ const router = createRouter({
     {
       
         // path: "/detailPage/:title/:img/:pageNum/:year/:size/:cat/:file/:overView/",
-        path: "/detailPage",
+        path: "/",
         name: "detailPage",
         component: () =>
           import("../views/detailView.vue"),
